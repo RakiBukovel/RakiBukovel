@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>П'яні Раки Bukovel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>П'яні Раки Bukovel</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Головна</a></li>
+                <li><a href="#">Контакти</a></li>
+                <li><a href="#">О нас</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="catalog" class="catalog">
+        <h2>Наші товари</h2>
+        <div class="products">
+            <div class="product-item" id="product-1">
+                <img src="rak1.jpg" alt="Раки">
+                <h3>Живі раки S</h3>
+                <p>Ціна: 2300 грн/кг</p>
+                <input type="number" step="0.1" placeholder="Вага (кг)" id="weight-1">
+                <button onclick="addToCart('Живі раки S', 2300, document.getElementById('weight-1').value)">Добавить в корзину</button>
+            </div>
+            
+            
+            <div class="product-item" id="product-1">
+                <img src="rak1.jpg" alt="Раки">
+                <h3>Живі раки M </h3>
+                <p>Ціна: 2600 грн/кг</p>
+                <input type="number" step="0.1" placeholder="Вага (кг)" id="weight-2">
+                <button onclick="addToCart('Живі раки M', 2600, document.getElementById('weight-2').value)">Добавить в корзину</button>
+            </div>
+            
+            
+            <div class="product-item" id="product-1">
+                <img src="rak1.jpg" alt="Раки">
+                <h3>Живі раки L </h3>
+                <p>Ціна: 3200 грн/кг</p>
+                <input type="number" step="0.1" placeholder="Вага (кг)" id="weight-3">
+                <button onclick="addToCart('Живі раки L', 3200, document.getElementById('weight-3').value)">Добавить в корзину</button>
+            </div>
+            
+            
+            <div class="product-item" id="product-1">
+                <img src="rak1.jpg" alt="Раки">
+                <h3>Живі раки XL </h3>
+                <p>Ціна: 3600 грн/кг</p>
+                <input type="number" step="0.1" placeholder="Вага (кг)" id="weight-4">
+                <button onclick="addToCart('Живі раки XL', 3600, document.getElementById('weight-4').value)">Добавить в корзину</button>
+            </div>
+            
+            
+            <div class="product-item" id="product-1">
+                <img src="rak2.jpg" alt="Раки">
+                <h3>Варені раки S</h3>
+                <p>Ціна: 2300 грн/кг</p>
+                <input type="number" step="0.1" placeholder="Вага (кг)" id="weight-5">
+                <button onclick="addToCart('Варені раки S', 2300, document.getElementById('weight-5').value)">Добавить в корзину</button>
+            </div>
+            
+            <div class="product-item" id="product-1">
+                <img src="rak2.jpg" alt="Раки">
+                <h3>Варені раки M </h3>
+                <p>Ціна: 2600 грн/кг</p>
+                <input type="number" step="0.1" placeholder="Вага (кг)" id="weight-6">
+                <button onclick="addToCart('Варені раки M', 2600, document.getElementById('weight-6').value)">Добавить в корзину</button>
+            </div>
+            
+            
+            <div class="product-item" id="product-1">
+                <img src="rak2.jpg" alt="Раки">
+                <h3>Варені раки L </h3>
+                <p>Ціна: 3200 грн/кг</p>
+                <input type="number" step="0.1" placeholder="Вага (кг)" id="weight-7">
+                <button onclick="addToCart('Варені раки L', 3200, document.getElementById('weight-7').value)">Добавить в корзину</button>
+            </div>
+            
+            
+            <div class="product-item" id="product-1">
+                <img src="rak2.jpg" alt="Раки">
+                <h3>Варені раки XL</h3>
+                <p>Ціна: 3600 грн/кг</p>
+                <input type="number" step="0.1" placeholder="Вага (кг)" id="weight-8">
+                <button onclick="addToCart('Варені раки XL', 3600, document.getElementById('weight-8').value)">Добавить в корзину</button>
+            </div>
+            
+            
+            <div class="product-item" id="product-1">
+                <img src="korop.jpg" alt="Раки">
+                <h3>Жива риба - Короп</h3>
+                <p>Мінімальна вага до замовлення - 1кг Ціна: 500 грн/кг</p>
+                <input type="number" step="0.1" placeholder="Вага (кг)" id="weight-9">
+                <button onclick="addToCart('Жива риба - Короп', 500, document.getElementById('weight-9').value)">Добавить в корзину</button>
+            </div>
+            
+            
+
+            <div class="product-item" id="product-1">
+                <img src="Korop smageniy.jpg" alt="Раки">
+                <h3>Смажена риба - Короп</h3>
+                <p>Мінімальна вага до замовлення - 1кг  Ціна: 1000 грн/кг</p>
+                <input type="number" step="0.1" placeholder="Вага (кг)" id="weight-10">
+                <button onclick="addToCart('Смажена риба - Короп', 1000, document.getElementById('weight-10').value)">Добавить в корзину</button>
+            </div>
+            
+            
+            <div class="product-item" id="product-1">
+                <img src="forel.jpg" alt="Раки">
+                <h3>Жива риба - Форель</h3>
+                <p>Мінімальна вага до замовлення - 0.300г Ціна: 400 грн/кг</p>
+                <input type="number" step="0.1" placeholder="Вага (кг)" id="weight-11">
+                <button onclick="addToCart('Жива риба - Форель', 400, document.getElementById('weight-11').value)">Добавить в корзину</button>
+            </div>
+            
+            
+
+            <div class="product-item" id="product-1">
+                <img src="Forel smagena.jpg" alt="Раки">
+                <h3>Смажена риба - Форель</h3>
+                <p>Мінімальна вага до замовлення - 0.300г Ціна: 800 грн/кг</p>
+                <input type="number" step="0.1" placeholder="Вага (кг)" id="weight-12">
+                <button onclick="addToCart('Смажена риба - Форель', 800, document.getElementById('weight-12').value)">Добавить в корзину</button>
+            </div>
+            
+            <div class="product-item" id="product-1">
+                <img src="karas.jpg" alt="Раки">
+                <h3>Жива риба - Карась</h3>
+                <p>Мінімальна вага до замовлення - 0.300г Ціна: 300 грн/кг</p>
+                <input type="number" step="0.1" placeholder="Вага (кг)" id="weight-13">
+                <button onclick="addToCart('Жива риба - Карась', 300, document.getElementById('weight-13').value)">Добавить в корзину</button>
+            </div>
+            
+            
+            <div class="product-item" id="product-1">
+                <img src="Karas smageniy.jpg" alt="Раки">
+                <h3>Смажена риба - Карась</h3>
+                <p>Мінімальна вага до замовлення - 0.300г Ціна: 600 грн/кг</p>
+                <input type="number" step="0.1" placeholder="Вага (кг)" id="weight-14">
+                <button onclick="addToCart('Смажена риба - Карась', 600, document.getElementById('weight-14').value)">Добавить в корзину</button>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <section id="cart" class="cart">
+        <h2>Ваша корзина</h2>
+        <ul id="cart-list"></ul>
+        <button onclick="openModal()">Оформити замовлення</button>
+    </section>
+
+    <!-- Модальное окно для формы оформления заказа -->
+    <div id="checkout-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3>Оформлення замовлення</h3>
+            <form id="orderForm">
+                <label for="name">Им'я:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="phone">Номер телефона:</label>
+                <input type="tel" id="phone" name="phone" required><br>
+
+                <label for="address">Адреса доставки:</label>
+                <input type="text" id="address" name="address" required><br>
+
+                <button type="submit">Подтвердити замовлення</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; П'яні Раки Буковель</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
